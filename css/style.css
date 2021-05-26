@@ -18928,9 +18928,20 @@ section {
 }
 
 .videos{
-  margin-left: 9%;
+float:left;
+padding: 100px;
+margin-top: -45px;
+margin-bottom: 3px;
+margin-left: -84px;
 }
 
+.flutuante{
+  background-color: green;
+  float: left;
+  width: 100px;height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 
 .owl-carousel .owl-item .item {
   border-radius: 25px;
