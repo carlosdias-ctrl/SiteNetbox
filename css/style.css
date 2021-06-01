@@ -10307,7 +10307,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #919aa3;
+  color: black;
   opacity: 1;
 }
 
@@ -17932,9 +17932,17 @@ a.text-light:hover, a.text-light:focus {
   color: #35435f !important;
 }
 
+@font-face {
+	font-family: Rubik;
+	src: url(../fonts/Rubik/Rubik-Black.woff)
+}
+
 .text-dark {
-  font-family: fantasy;
+  font-family: Rubik;
   color: #ff8c00 !important;
+}
+h3{
+  font-family: Bowlby;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -18350,7 +18358,7 @@ h6, .h6 {
 }
 
 .font-weight-medium {
-  font-family: fantasy;
+  font-family: sans-serif;
   font-size: 50px;
   font-weight: 900;
 }
@@ -18651,7 +18659,7 @@ background: url("../images/banner-bg.svg");
 }
 
 .texto-banner{
-font-family: fantasy;
+font-family: sans-serif;
 font-weight: 900;
 font-size: 60px;
 margin-top: 48px;
