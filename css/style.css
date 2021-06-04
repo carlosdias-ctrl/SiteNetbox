@@ -12502,6 +12502,12 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
 }
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+
 
 .navbar-brand {
   display: inline-block;
