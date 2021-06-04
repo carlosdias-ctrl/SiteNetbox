@@ -10781,7 +10781,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -17943,6 +17943,11 @@ a.text-light:hover, a.text-light:focus {
   font-family: 'smack';    
   font-weight: 900;
 }
+@font-face {
+  src: url(../fonts/ash/Ash.ttf);
+  font-family: 'ash';    
+  font-weight: 900;
+}
 
 .text-dark {
   font-family: SANTO;
@@ -18667,6 +18672,27 @@ font-family: smack;
 font-weight: 900;
 font-size: 60px;
 margin-top: 48px;
+}
+
+.texto-main{
+  font-family: ash;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 10px;
+  color: #ff6a00;
+}
+
+.testemunhos{
+  font-family: smack;
+  font-weight: 300;
+  font-size: 40px;
+  color: white;
+}
+
+.contato{
+  background-color: #ff6a00;
+  height: 80px;
+  
 }
 
 .main-banner .banner-title {
